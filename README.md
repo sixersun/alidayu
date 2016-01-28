@@ -3,7 +3,6 @@
 
 只是做了简单的简化 以下是调用demo
 <pre>
-<?php
 function sendsms(){
  	$name='注册验证';//短信签名
 	$content="{'code':'5555','product':'xrx'}";//短信内容（json格式），根据短信模板来选择
@@ -17,6 +16,5 @@ function sendsms(){
 
 
 }
-?>
 </pre>
 
