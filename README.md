@@ -11,10 +11,8 @@ function sendsms(){
 	$appkey ='';//你的App key
 	$secret ='';//你的App Secret:
 	require('sms.class.php');//根据自己的框架来定位，如thinkphp下用import来引入
-	$sms=new Clisms($appkey,$secret,$name,$content,$phone,$code);
+	$sms=new Sms($appkey,$secret,$name,$content,$phone,$code);
 	$return=$sms->send();
-
-
 }
 </pre>
 
